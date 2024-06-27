@@ -1,0 +1,785 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+  
+}
+
+.top {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+     width: 100%;
+     color: rgba(255, 255, 255, 0.5);
+     font-size: 14px;
+     font-family: sans-serif;
+     height: 36px;
+     display: flex;
+     justify-content:space-around;
+     align-items: center;
+}
+
+nav {
+    width: 100%;
+    height: 64px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+}
+
+.menu-logo {
+    width: 80%;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 22px;
+    font-family: Arial sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.menu ul {
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu ul li a {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.menu ul li:first-child a {
+    color: #c8a97e;
+}
+
+.menu ul li:first-child a:hover {
+    color: white;
+}
+
+.menu ul li:last-child a {
+    padding: 18px 20px;
+    background-color: #c8a97e;
+    border-radius: 5px;
+}
+.first-page {
+    width: 100%;
+    height: 740px;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url("https://preview.colorlib.com/theme/feliciano/images/bg_2.jpg");
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    width: 900px;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+
+}
+
+.text span {
+    font-size: 55px;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.text span:first-child {
+    font-size: 70px;
+    color: #c8a97e;
+    font-family: cursive;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+
+.cards {
+    width: 100%;
+    height: 205px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.card1 {
+    width: 390px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card1 img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.card1 h3 {
+    padding-top: 14px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.card1 p {
+    padding-top: 7px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #FFFFFFCC;
+}
+
+.third-page {
+    width: 100%;
+    height: 647px;
+    background-color: rgb(250,250,250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sct3-content {
+    width: 1140px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sct3-title {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.sct3-title h2 {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.2;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.sct3-title span {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    font-weight: normal;
+    font-size: 100px;
+    display: block;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.2);
+    color: #c8a97e;
+    line-height: 1;
+    font-family: "Great Vibes", cursive;
+    margin-top: 0;
+    /* z-index: -1; */
+}
+
+.sct3-cards {
+    width: 100%;
+    height: 269px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sct3-card1 {
+    width: 350px;
+    height: 269px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sct3-icon {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+
+.sct3-icon i {
+    font-size: 54px;
+    color: #c8a97e;
+}
+
+.card1-text {
+    width: 100%;
+    height: 183px;
+    text-align: center;
+}
+
+.card1-text h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.card1-text p {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 2;
+    font-weight: 400;
+    color: #666666;
+}
+
+.second-page {
+    width: 100%;
+    height: 837px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main-one {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.picture1 , .picture2 {
+    width: 300px;
+    height: 480px;
+}
+
+.special {
+    font-weight: bold;
+}
+
+.picture1 img , .picture2 img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.picture2 {
+    display: flex;
+    align-items: end;
+}
+
+.about {
+    width: 440px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.title {
+    position: relative;
+}
+
+.title .subheading {
+    color: #c8a97e;
+    font-size: 70px;
+    font-family: "Great Vibes", cursive;
+    font-weight: normal;
+    line-height: 1;
+    z-index: -1;
+    
+}
+
+.title h2 {
+    font-size: 50px;
+    line-height: 1;
+}
+
+.about p {
+    font-size: 17px;
+    font-family: "Poppins", Arial, sans-serif;
+    color: #666666;
+    line-height: 25px;
+    padding-top: 25px;
+}
+
+.about .time {
+    font-size: 17px;
+    font-family: "Poppins", Arial, sans-serif;
+    padding-top: 20px;
+}
+
+.about .number {
+    font-size: 40px;
+    color: #c8a97e;
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.bottom-part {
+    padding-top: 30px;
+    height: 152px;
+    width: 70%;
+    display: flex;
+}
+
+.part1 , .part2 , .part3 , .part4 {
+    width: 213px;
+    height: 72px;
+}
+
+.part5 {
+    width: 265px;
+    height: 150px;
+}
+
+
+.part1 span , .part2 span , .part3 span , .part4 span {
+    color: #c8a97e;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.part1 p , .part2 p , .part3 p , .part4 p {
+    color: #6F6F6F;
+    padding-top: 6px;
+    font-size: 13px;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.part5 p {
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fff;
+    font-size: 17px;
+    line-height: 2;
+    font-weight: 400;
+    color: #666666;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    flex-direction: column;
+}
+
+.container {
+    width: 74%;
+    height: 380px;
+    display:flex;
+    justify-content: space-around;
+    align-items: end;
+    flex-direction: row;
+}
+
+.content1 {
+    width: 285px;
+    height: 291px;
+}
+
+.content2 {
+    width: 285px;
+    height: 291px;
+}
+
+.content3 {
+    width: 285px;
+    height: 291px;
+}
+
+.content4 {
+    width: 285px;
+    height: 291px
+}
+
+.content1 h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 30px;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.content1 p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.icons {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.icons i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.content2 h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 30px;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.days {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+}
+
+.day-time {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.day-time {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-family: "Poppins", Arial, sans-serif;
+    line-height: 2;
+}
+
+.content3 h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 30px;
+    font-family: "Poppins", Arial, sans-serif;
+} 
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .images img {
+    margin: 0;
+    padding: 0;
+    width: 85px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .content4 h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 30px;
+    font-family: "Poppins", Arial, sans-serif;
+
+  }
+
+  .content4 p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-family: "Poppins", Arial, sans-serif;
+    line-height: 2;
+  }
+
+  .first-btn {
+    border-radius: 2px;
+    width: 255px;
+    height: 52px;
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: none;
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+
+  .second-btn {
+    background-color: #c8a97e !important;
+    border-radius: 2px;
+    width: 255px;
+    height: 52px;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    margin-top: 8px;
+    cursor: pointer;
+  }
+
+  .last-text {
+    width: 700px;
+    height: 28px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+
+  .last-text p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-family: "Poppins", Arial, sans-serif;
+    text-align: center;
+  }
+
+
+
+  @media (max-width:992px) {
+
+    .top {
+        display: none;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .menu {
+        display: none;
+        
+    }
+
+    .first-page {
+        height: auto;
+    }
+
+    .text span:first-child {
+        font-size: 50px;
+    }
+
+    .text span {
+        font-size: 35px;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        height: auto;
+        background-color: white;
+        gap: 25px;
+        padding: 20px;
+    }
+
+    .card1 h3 , .card1 p {
+        color: black;
+    }
+
+    .second-page {
+        height: auto;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+    .picture1 {
+        margin-top: 25px;
+    }
+
+    .picture2 {
+        margin-bottom: 25px;
+    }
+
+    .main-one {
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .center {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .about {
+        height: auto;
+        width: 100%;
+    }
+
+    .bottom-part {
+        flex-wrap: wrap;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .third-page {
+        height: auto;
+    }
+
+    .sct3-cards {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .part1 span, .part2 span, .part3 span, .part4 span {
+
+        font-size: 40px;
+    }
+
+    .part5 p {
+        margin-top: 20px;
+    }
+
+    .sct3-content {
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        height: auto;
+        padding: 30px 0;
+    }
+
+    footer .container {
+        flex-wrap: wrap;
+    height: auto;
+
+    }
+
+    .content1 , .content2 , .content3 , .content4 {
+        width: 100%;
+    }
+
+    .content4 {
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .images img {
+        width: 130px;
+        height: auto;
+    }
+
+    .first-btn , .second-btn {
+        width: 100%;
+    }
+
+    .last-text {
+        text-align: center;
+       width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+    }
+
+    .last-text p {
+        text-align: center;
+       width: 100%;
+    }
+
+    .bottom-part {
+       padding-bottom: 30px;
+    }
+
+
+  }
+
+
+
+
+
+
+  @media (max-width:600px) {
+
+    .text span {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .about .number {
+        font-size: 29px;
+    }
+
+    .content2 h2 {
+        margin-top: 20px;
+    }
+
+    .content1, .content2, .content3, .content4 {
+        height: auto;
+        width: 100%;
+    }
+
+    .images img {
+        width: 100%;
+    }
+
+    .last-text {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    
+    }
+
+    .text  {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+  }
+
+
+
+
+    
+
+
+
+
+
+
+
